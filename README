@@ -1,5 +1,8 @@
 REAMDME FOR CONNECT FOUR SERVER & CLIENT
+by Shota and Patrick
+Submitted 5/8/17
 
+/*********************************How to use*********************************/
 To run server:
 ./server <port_number>
 port numbers 15000 or higher should work well
@@ -15,3 +18,14 @@ If client is a different machine as the server,
     this can be found on linux machines with with the command "ip addr show".
     copy the number to the left of the word "inet" (e.g. 192.168.1.252).
     use this as the address.
+/****************************************************************************/
+
+To do/maybe (7/2/17):
+1-fix messaging/bugs, without using sleeps
+2-fix server issues with connecting then one leaving, causing a person to play alone.
+3-add a chat room in lobby, and in-game
+4-make a friends list
+5-add a database of users to store wins, losses, friends (maybe)
+6-notifications of friends online
+7-make a bot with different difficulties
+8-add more games such as tic-tac-toe, chess, and checkers
