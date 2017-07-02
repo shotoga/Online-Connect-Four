@@ -1,0 +1,17 @@
+REAMDME FOR CONNECT FOUR SERVER & CLIENT
+
+To run server:
+./server <port_number>
+port numbers 15000 or higher should work well
+
+To run client:
+./client <address> <port_number>
+Choose the portnumber used in the server.
+If both server and client are running on the same machine,
+    then address is "localhost"
+
+If client is a different machine as the server,
+    get the local address of the server.
+    this can be found on linux machines with with the command "ip addr show".
+    copy the number to the left of the word "inet" (e.g. 192.168.1.252).
+    use this as the address.
